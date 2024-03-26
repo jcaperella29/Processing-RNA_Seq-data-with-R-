@@ -12,4 +12,4 @@ An R script that reads in RNA_Seq data  , preprocesses it , then performs differ
 # A new dataframe is prepared with columns of the counts and the phenotype.
 # Using a Random Forest model , hits are narrowed down via feature selection
 # Finally the top 20 genes are output as a text file.
-
+# Note when using real data, enter your counts matrix at line 62 and other information(like phenotypes) at line 64
