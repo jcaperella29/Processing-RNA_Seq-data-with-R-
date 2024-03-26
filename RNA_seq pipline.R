@@ -141,7 +141,7 @@ importance_df$genenames<-row.names(importance_df)
 importance_df<-importance_df[order(importance_df$MeanDecreaseAccuracy, decreasing = TRUE),]
 Top_20_genes<-importance_df$genenames[1:20]
 
-write.table(Top_20_genes,"C:/Users/ccape/OneDrive/Documents/RNA_seq_genes.txt")
+write.table(Top_20_genes,"path choosen by user)
 
 #orginal code is from https://master.bioconductor.org/packages/release/workflows/vignettes/rnaseqGene/inst/doc/rnaseqGene.html.
 #I added lines to narrow down hits  among the differentially expressed genes using feature selection via Random Forest
